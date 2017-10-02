@@ -1,0 +1,94 @@
+
+
+
+/*头部*/
+.header{width: 100%;height: 60px;line-height: 60px;background-color: #464646;color: #FF3E3E;}
+.header .HeadCter{width: 1200px;height: 60px;margin: auto;}
+.header a.grid{color:#FF3E3E; font-size:18px; }
+.header a:hover{text-decoration: underline;}
+.header a.grid img{width: 34px;height: 38px;margin-right:10px; }
+.header ul{float:right;}
+.header ul li{display: inline-block;height:20px;line-height:20px;padding:0 15px;border-right:1px solid #E4682B;  }
+.header ul li:last-child{margin:0;padding-right:0 ;border-right: none; }
+.header ul a{color: #F78D59;font-size:16px; }
+.header ul a:hover{color:yellow;text-decoration: underline;}
+
+
+
+/*logo和search框*/
+.LogoSearchBox{height: 177px;border-bottom: #E4682B 3px solid;background-color: #fff;}
+.LogoSearchCter{width: 1200px;height: 131px;margin:0 auto; padding-top:23px;  }
+.LogoSearchCter .logo{width: 270px;}
+/*logo和菜单*/
+.SearchNav{position: relative;}
+/*搜索框*/
+.SearchInput{width: 482px;height: 44px;line-height: 44px;line-height: normal; border: #E4682B solid 1px;float:right; }
+.SearchInput input{width: 390px;height:30px;line-height:30px;margin:7px 0;  font-size: 16px;padding:0 10px;border-right:2px solid #E4682B;float: left; line-height: normal;}
+.SearchInput button{width:70px;height: 46px;cursor:pointer; background: url(../img/search.gif) no-repeat center ;}
+/*菜单*/
+.SearchNav .Nav{clear: both;height:50px;padding-top:50px; font-size: 24px;}
+.SearchNav .Nav a{margin-left:100px; }
+.SearchNav .active{color: #E4682B;}
+
+
+
+
+/*主体内容*/
+.content{ width: 1200px;margin: auto;height: auto;padding-bottom:70px; } 
+
+.banner{width: 100%;height: 300px;background-image: url(../img/4-1.jpg); background-size:100% 100%; text-align: center;position: relative;line-height: 300px;}
+
+.banner .cover{width: 100%;height: 100%;background-color: rgba(1,1,1,.3);}
+.banner p{width: 100%;height: 100%;text-align: center;font-size:25.61px;color: #fff;}
+
+
+
+
+/*步骤*/
+.step{height: 427px;border-bottom:1px solid #F27954;padding-bottom:40px; }
+.title{margin:48px 0 30px 30px;  font-size: 24px;color:#3E3E3E;  }
+.title-2{margin-left: 115px;font-size: 18px;color:#A7A7A7; margin-bottom: 50px;}
+.step-con{}
+.step-con{padding:0 77px; }
+.step-con ul{width: 20%;text-align: center; float: left;margin-right: 150px;}
+.step-con ul:last-child{width: 30%;margin-right: 0;}
+.step-con .icon{width: 127px;height: 127px;background:#F78D59;border-radius: 100%;text-align: center;line-height: 127px;font-size: 24px;color: #fff; margin: auto;}
+.step-con .h1{font-size:24px;color:#1A1A1A; margin:10px 0;  }
+.step-con li{color: #818181;font-size: 20px;}
+
+
+
+
+
+/*装修施工服务*/
+.serve-con{clear: both;margin-top:68px;}
+.serve-con ul{margin-bottom: 26px; height: 143px;}
+.serve-con ul li{width: 288px;height: 143px;float: left;margin-right:13px; }
+.serve-con ul li:last-child{margin-right: 0;}
+.serve-con ul li:nth-of-type(1){background:#FFE4D6 ;}
+.serve-con ul li:nth-of-type(2){background:#FFD5C1 ;}
+.serve-con ul li:nth-of-type(3){background:#FFC7AC;}
+.serve-con ul li:nth-of-type(4){background:#FFBB9A;}
+.serve-con ul li:nth-of-type(5){background:#FFB38E;}
+.serve-con ul li:nth-of-type(6){background:#FFAB82;}
+.serve-con ul li:nth-of-type(7){background:#FFA477;}
+.serve-con ul li:nth-of-type(8){background:#FD9B6A;}
+.serve-con ul li:nth-of-type(9){background:#FF9560;}
+.serve-con ul li:nth-of-type(0){background:#F78D59;}
+.serve-con ul li:nth-of-type(11){background:#F38249;}
+
+
+
+/*智能管控*/
+.smart-control{border-top: 1px solid #F38249;}
+.control-con{background-color:#9A654B; height: 143px;line-height: 143px;text-align: center;margin-top:-25px; }
+.control-con p a{font-size: 24.21px;color: #fff;}
+
+
+
+
+
+
+
+/*底部*/
+.footer{height: 1000px;background: #393939;margin-top:80px;}

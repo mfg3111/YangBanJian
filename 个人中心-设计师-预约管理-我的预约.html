@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人中心-设计师-预约管理-我的预约</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+         <script src="js/jquery-1.10.1.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/个人中心-设计师-预约管理-我的预约.css" />
+    
+</head>
+<body>
+   <!--头部-->
+    <div class="header">
+        <div class="HeadCter">
+            <a class='grid' href="###"><img src="img/坐标.png" alt="">广州</a>
+            <ul>
+                <li><a href="###">登录</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="###">注册</a></li>
+                <li><a href="###">消息</a></li>
+                <li><a href="###">我的样板间</a></li>
+                <li><a href="###">入驻我们</a>&nbsp;&nbsp;&nbsp;</li>
+                <li>&nbsp;&nbsp;&nbsp;<a href="###">400-633-952</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--logo和搜索框-->
+    <div class="LogoSearchBox">
+       <!--Logo搜索框区域居中的部分-->
+        <div class="LogoSearchCter">
+            <div class="logo fl">
+                <a href="index.html"><img src="img/logo.png" alt=""></a>
+            </div>
+            <div class="SearchNav fr">
+                <div class="SearchInput">
+                    <input type="text" placeholder='请输入您要搜索的内容' />
+                    <button></button>
+                </div>
+                <div class="Nav">
+                    <a href="index.html" class="active">首页</a>
+                    <a href="###">商城</a>
+                    <a href="案例展示-diy.html">装修DIY</a>
+                    <a href="装修服务.html">找装修</a>
+                    <a href="团购.html">逛团购</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--主体内容区域-->
+    <div class="content">
+    	<div class="con_left">
+    		<a href="###" class='my_ybj'>我的样板间</a>
+    		<div class="nav-1">
+    			<a href="###">我的订单</a>
+    			<a href="###">订单评价</a>
+    			<a href="###">退货/保修</a>
+    			<a href="###">我的团购</a>
+    		</div>
+    		<div class="nav-2">
+    			<a href="###">我的收藏</a>
+    		</div>
+    		<div class="nav-3">
+    			<a href='###' class='show'>修改信息 <i class='iconfont'>&#xe644;</i></a>
+    			<ul>
+    				<a href="###">修改个人信息</a>
+    				<a href="###">修改设计师信息</a>
+    			</ul>
+    				<a href="###">管理收货地址</a>
+    				<a href="###">修改密码</a>
+    		</div>
+    		<div class="nav-4">
+    			<a href="###">系统通知</a>
+    		</div>
+    		<div class="nav-5">
+    			<a href="###" class='show'>预约管理 <i class='iconfont'>&#xe644;</i></a>
+    			<ul>
+    				<a href="###">我的预约</a>
+    				<a href="###">预约我的</a>
+    			</ul>
+    			<a href="###" class='show'>展示管理 <i class='iconfont'>&#xe644;</i></a>
+    			<ul>
+    				<a href="###">我的荣誉</a>
+    				<a href="###">新增案例</a>
+    				<a href="###">新增作品</a>
+    				<a href="###">我的项目</a>
+    			</ul>
+    		</div>
+    	</div>
+    	<div class="con_right">
+    		<!--预约选项-->
+    		<div class="ord_option"> 
+    			<a href="###" class='red'>我的预约</a>
+    			<span></span>
+    			<a href="###">预约我的</a>
+    		</div>
+    		<!--全部预约-->
+    		<div class="all_yuyue_box">
+    			<div class="all_ord_option">
+	    			<a href="###" class='red'>全部预约</a>
+	    			<a href="###">DIY装修预约</a>
+	    			<a href="###">装修公司预约</a>
+	    			<span><input type="text" class='search'/>
+	    			<i class='sear'></i><i>|</i>
+	    			<i class='bot'></i>
+	    			</span>
+	    		</div>
+	    		<div class="title">
+	    			<ul>
+	    				<li class='time'><a href="###" class='shows'>近三个月 <i class='iconfont'>&#xe644;</i></a></li>
+	    				<li class='details'>预约详情</li>
+	    				<li class='name'>预约人</li>
+	    				<li class='now'><a href="###" class='shows'>订单状态 <i class='iconfont'>&#xe644;</i></a></li>
+	    				<li class='operate'>预约操作</li>
+	    				
+	    					<div class="time_show" id='time_show1'>
+	    						<ul>
+	    							<li>3天前</li>
+		    						<li>半个月前</li>
+		    						<li>一个月前</li>
+		    						<li>两个月前</li>
+		    						<li>三个月前</li>
+		    						<li>三千年前</li>
+	    						</ul>
+	    					</div>
+	    					<div class="time_show" id='time_show2'>
+	    						<ul>
+	    							<li>已完成</li>
+		    						<li>未完成</li>
+		    						<li>已提交</li>
+		    						<li>未提交</li>
+	    						</ul>
+	    					</div>
+	    			</ul>
+	    		</div>
+	    		<div class="yuyue_list">
+	    			<h3><span>2017.09.13</span>  <span>18:25:33</span>  <span>预约号 : 5461964651</span>  <span>装修公司</span>	</h3>
+	    			<div class="yuyue_list_con">
+	    				<div class="yuyue_list_con1">
+		    				<h6>预约内容：129平方米普通住宅装修</h6>
+		    				<p>预约时间：2017.04.30   15:30:00</p>
+		    				<p>预约地点：XXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+		    				<p>XXXXXXXXXXXXXXXXX</p>
+		    			</div>
+		    			<div class="yuyue_list_con2">
+		    				<p>AAAAAA装修公司</p>
+		    			</div>
+		    			<div class="yuyue_list_con3">
+		    				<p>林子阳</p>
+		    			</div>
+		    			<div class="yuyue_list_con4">
+		    				<p><a href="###">待预约</a></p>
+		    				<p><a href="###">预约详情</a></p>
+		    			</div>
+		    			<div class="yuyue_list_con5">
+		    				<p><a href="###" class='true'>确定预约</a></p>
+		    				<p><a href="###">取消预约</a></p>
+		    			</div>
+	    			</div><!--yuyue_list_con 结束-->
+	    		</div><!--yuyue_list 结束-->
+	    		<div class="yuyue_list">
+	    			<h3><span>2017.09.13</span>  <span>18:25:33</span>  <span>预约号 : 5461964651</span>  <span>装修公司</span>	</h3>
+	    			<div class="yuyue_list_con">
+	    				<div class="yuyue_list_con1">
+		    				<h6>预约内容：129平方米普通住宅装修</h6>
+		    				<p>预约时间：2017.04.30   15:30:00</p>
+		    				<p>预约地点：XXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+		    				<p>XXXXXXXXXXXXXXXXX</p>
+		    			</div>
+		    			<div class="yuyue_list_con2">
+		    				<p>AAAAAA装修公司</p>
+		    			</div>
+		    			<div class="yuyue_list_con3">
+		    				<p>林子阳</p>
+		    			</div>
+		    			<div class="yuyue_list_con4">
+		    				<p><a href="###">待预约</a></p>
+		    				<p><a href="###">预约详情</a></p>
+		    			</div>
+		    			<div class="yuyue_list_con5">
+		    				<p><a href="###" class='true'>确定预约</a></p>
+		    				<p><a href="###">取消预约</a></p>
+		    			</div>
+	    			</div><!--yuyue_list_con 结束-->
+	    		</div><!--yuyue_list 结束-->
+	    		<div class="yuyue_list">
+	    			<h3><span>2017.09.13</span>  <span>18:25:33</span>  <span>预约号 : 5461964651</span>  <span>装修公司</span>	</h3>
+	    			<div class="yuyue_list_con">
+	    				<div class="yuyue_list_con1">
+		    				<h6>预约内容：129平方米普通住宅装修</h6>
+		    				<p>预约时间：2017.04.30   15:30:00</p>
+		    				<p>预约地点：XXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+		    				<p>XXXXXXXXXXXXXXXXX</p>
+		    			</div>
+		    			<div class="yuyue_list_con2">
+		    				<p>AAAAAA装修公司</p>
+		    			</div>
+		    			<div class="yuyue_list_con3">
+		    				<p>林子阳</p>
+		    			</div>
+		    			<div class="yuyue_list_con4">
+		    				<p><a href="###">待预约</a></p>
+		    				<p><a href="###">预约详情</a></p>
+		    			</div>
+		    			<div class="yuyue_list_con5">
+		    				<p><a href="###" class='true'>确定预约</a></p>
+		    				<p><a href="###">取消预约</a></p>
+		    			</div>
+	    			</div><!--yuyue_list_con 结束-->
+	    		</div><!--yuyue_list 结束-->
+	    		<div class="yuyue_list">
+	    			<h3><span>2017.09.13</span>  <span>18:25:33</span>  <span>预约号 : 5461964651</span>  <span>装修公司</span>	</h3>
+	    			<div class="yuyue_list_con">
+	    				<div class="yuyue_list_con1">
+		    				<h6>预约内容：129平方米普通住宅装修</h6>
+		    				<p>预约时间：2017.04.30   15:30:00</p>
+		    				<p>预约地点：XXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+		    				<p>XXXXXXXXXXXXXXXXX</p>
+		    			</div>
+		    			<div class="yuyue_list_con2">
+		    				<p>AAAAAA装修公司</p>
+		    			</div>
+		    			<div class="yuyue_list_con3">
+		    				<p>林子阳</p>
+		    			</div>
+		    			<div class="yuyue_list_con4">
+		    				<p><a href="###">待预约</a></p>
+		    				<p><a href="###">预约详情</a></p>
+		    			</div>
+		    			<div class="yuyue_list_con5">
+		    				<p><a href="###" class='true'>确定预约</a></p>
+		    				<p><a href="###">取消预约</a></p>
+		    			</div>
+	    			</div><!--yuyue_list_con 结束-->
+	    		</div><!--yuyue_list 结束-->
+	    		<div class="yuyue_list">
+	    			<h3><span>2017.09.13</span>  <span>18:25:33</span>  <span>预约号 : 5461964651</span>  <span>装修公司</span>	</h3>
+	    			<div class="yuyue_list_con">
+	    				<div class="yuyue_list_con1">
+		    				<h6>预约内容：129平方米普通住宅装修</h6>
+		    				<p>预约时间：2017.04.30   15:30:00</p>
+		    				<p>预约地点：XXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+		    				<p>XXXXXXXXXXXXXXXXX</p>
+		    			</div>
+		    			<div class="yuyue_list_con2">
+		    				<p>AAAAAA装修公司</p>
+		    			</div>
+		    			<div class="yuyue_list_con3">
+		    				<p>林子阳</p>
+		    			</div>
+		    			<div class="yuyue_list_con4">
+		    				<p><a href="###">待预约</a></p>
+		    				<p><a href="###">预约详情</a></p>
+		    			</div>
+		    			<div class="yuyue_list_con5">
+		    				<p><a href="###" class='true'>确定预约</a></p>
+		    				<p><a href="###">取消预约</a></p>
+		    			</div>
+	    			</div><!--yuyue_list_con 结束-->
+	    		</div><!--yuyue_list 结束-->
+	    		<div class="yuyue_list">
+	    			<h3><span>2017.09.13</span>  <span>18:25:33</span>  <span>预约号 : 5461964651</span>  <span>装修公司</span>	</h3>
+	    			<div class="yuyue_list_con">
+	    				<div class="yuyue_list_con1">
+		    				<h6>预约内容：129平方米普通住宅装修</h6>
+		    				<p>预约时间：2017.04.30   15:30:00</p>
+		    				<p>预约地点：XXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+		    				<p>XXXXXXXXXXXXXXXXX</p>
+		    			</div>
+		    			<div class="yuyue_list_con2">
+		    				<p>AAAAAA装修公司</p>
+		    			</div>
+		    			<div class="yuyue_list_con3">
+		    				<p>林子阳</p>
+		    			</div>
+		    			<div class="yuyue_list_con4">
+		    				<p><a href="###">待预约</a></p>
+		    				<p><a href="###">预约详情</a></p>
+		    			</div>
+		    			<div class="yuyue_list_con5">
+		    				<p><a href="###" class='true'>确定预约</a></p>
+		    				<p><a href="###">取消预约</a></p>
+		    			</div>
+	    			</div><!--yuyue_list_con 结束-->
+	    		</div><!--yuyue_list 结束-->
+	    		<div class="yuyue_list">
+	    			<h3><span>2017.09.13</span>  <span>18:25:33</span>  <span>预约号 : 5461964651</span>  <span>装修公司</span>	</h3>
+	    			<div class="yuyue_list_con">
+	    				<div class="yuyue_list_con1">
+		    				<h6>预约内容：129平方米普通住宅装修</h6>
+		    				<p>预约时间：2017.04.30   15:30:00</p>
+		    				<p>预约地点：XXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+		    				<p>XXXXXXXXXXXXXXXXX</p>
+		    			</div>
+		    			<div class="yuyue_list_con2">
+		    				<p>AAAAAA装修公司</p>
+		    			</div>
+		    			<div class="yuyue_list_con3">
+		    				<p>林子阳</p>
+		    			</div>
+		    			<div class="yuyue_list_con4">
+		    				<p><a href="###">待预约</a></p>
+		    				<p><a href="###">预约详情</a></p>
+		    			</div>
+		    			<div class="yuyue_list_con5">
+		    				<p><a href="###" class='true'>确定预约</a></p>
+		    				<p><a href="###">取消预约</a></p>
+		    			</div>
+	    			</div><!--yuyue_list_con 结束-->
+	    		</div><!--yuyue_list 结束-->
+	    		<div class="yuyue_list">
+	    			<h3><span>2017.09.13</span>  <span>18:25:33</span>  <span>预约号 : 5461964651</span>  <span>装修公司</span>	</h3>
+	    			<div class="yuyue_list_con">
+	    				<div class="yuyue_list_con1">
+		    				<h6>预约内容：129平方米普通住宅装修</h6>
+		    				<p>预约时间：2017.04.30   15:30:00</p>
+		    				<p>预约地点：XXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+		    				<p>XXXXXXXXXXXXXXXXX</p>
+		    			</div>
+		    			<div class="yuyue_list_con2">
+		    				<p>AAAAAA装修公司</p>
+		    			</div>
+		    			<div class="yuyue_list_con3">
+		    				<p>林子阳</p>
+		    			</div>
+		    			<div class="yuyue_list_con4">
+		    				<p><a href="###">待预约</a></p>
+		    				<p><a href="###">预约详情</a></p>
+		    			</div>
+		    			<div class="yuyue_list_con5">
+		    				<p><a href="###" class='true'>确定预约</a></p>
+		    				<p><a href="###">取消预约</a></p>
+		    			</div>
+	    			</div><!--yuyue_list_con 结束-->
+	    		</div><!--yuyue_list 结束-->
+	    		<div class="yuyue_list">
+	    			<h3><span>2017.09.13</span>  <span>18:25:33</span>  <span>预约号 : 5461964651</span>  <span>装修公司</span>	</h3>
+	    			<div class="yuyue_list_con">
+	    				<div class="yuyue_list_con1">
+		    				<h6>预约内容：129平方米普通住宅装修</h6>
+		    				<p>预约时间：2017.04.30   15:30:00</p>
+		    				<p>预约地点：XXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+		    				<p>XXXXXXXXXXXXXXXXX</p>
+		    			</div>
+		    			<div class="yuyue_list_con2">
+		    				<p>AAAAAA装修公司</p>
+		    			</div>
+		    			<div class="yuyue_list_con3">
+		    				<p>林子阳</p>
+		    			</div>
+		    			<div class="yuyue_list_con4">
+		    				<p><a href="###">待预约</a></p>
+		    				<p><a href="###">预约详情</a></p>
+		    			</div>
+		    			<div class="yuyue_list_con5">
+		    				<p><a href="###" class='true'>确定预约</a></p>
+		    				<p><a href="###">取消预约</a></p>
+		    			</div>
+	    			</div><!--yuyue_list_con 结束-->
+	    		</div><!--yuyue_list 结束-->
+	    		<div class="yuyue_list">
+	    			<h3><span>2017.09.13</span>  <span>18:25:33</span>  <span>预约号 : 5461964651</span>  <span>装修公司</span>	</h3>
+	    			<div class="yuyue_list_con">
+	    				<div class="yuyue_list_con1">
+		    				<h6>预约内容：129平方米普通住宅装修</h6>
+		    				<p>预约时间：2017.04.30   15:30:00</p>
+		    				<p>预约地点：XXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+		    				<p>XXXXXXXXXXXXXXXXX</p>
+		    			</div>
+		    			<div class="yuyue_list_con2">
+		    				<p>AAAAAA装修公司</p>
+		    			</div>
+		    			<div class="yuyue_list_con3">
+		    				<p>林子阳</p>
+		    			</div>
+		    			<div class="yuyue_list_con4">
+		    				<p><a href="###">待预约</a></p>
+		    				<p><a href="###">预约详情</a></p>
+		    			</div>
+		    			<div class="yuyue_list_con5">
+		    				<p><a href="###" class='true'>确定预约</a></p>
+		    				<p><a href="###">取消预约</a></p>
+		    			</div>
+	    			</div><!--yuyue_list_con 结束-->
+	    		</div><!--yuyue_list 结束-->
+	    		<div class="yuyue_list">
+	    			<h3><span>2017.09.13</span>  <span>18:25:33</span>  <span>预约号 : 5461964651</span>  <span>装修公司</span>	</h3>
+	    			<div class="yuyue_list_con">
+	    				<div class="yuyue_list_con1">
+		    				<h6>预约内容：129平方米普通住宅装修</h6>
+		    				<p>预约时间：2017.04.30   15:30:00</p>
+		    				<p>预约地点：XXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+		    				<p>XXXXXXXXXXXXXXXXX</p>
+		    			</div>
+		    			<div class="yuyue_list_con2">
+		    				<p>AAAAAA装修公司</p>
+		    			</div>
+		    			<div class="yuyue_list_con3">
+		    				<p>林子阳</p>
+		    			</div>
+		    			<div class="yuyue_list_con4">
+		    				<p><a href="###">待预约</a></p>
+		    				<p><a href="###">预约详情</a></p>
+		    			</div>
+		    			<div class="yuyue_list_con5">
+		    				<p><a href="###" class='true'>确定预约</a></p>
+		    				<p><a href="###">取消预约</a></p>
+		    			</div>
+	    			</div><!--yuyue_list_con 结束-->
+	    		</div><!--yuyue_list 结束-->
+	    		<div class="yuyue_list">
+	    			<h3><span>2017.09.13</span>  <span>18:25:33</span>  <span>预约号 : 5461964651</span>  <span>装修公司</span>	</h3>
+	    			<div class="yuyue_list_con">
+	    				<div class="yuyue_list_con1">
+		    				<h6>预约内容：129平方米普通住宅装修</h6>
+		    				<p>预约时间：2017.04.30   15:30:00</p>
+		    				<p>预约地点：XXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+		    				<p>XXXXXXXXXXXXXXXXX</p>
+		    			</div>
+		    			<div class="yuyue_list_con2">
+		    				<p>AAAAAA装修公司</p>
+		    			</div>
+		    			<div class="yuyue_list_con3">
+		    				<p>林子阳</p>
+		    			</div>
+		    			<div class="yuyue_list_con4">
+		    				<p><a href="###">待预约</a></p>
+		    				<p><a href="###">预约详情</a></p>
+		    			</div>
+		    			<div class="yuyue_list_con5">
+		    				<p><a href="###" class='true'>确定预约</a></p>
+		    				<p><a href="###">取消预约</a></p>
+		    			</div>
+	    			</div><!--yuyue_list_con 结束-->
+	    		</div><!--yuyue_list 结束-->
+    		</div><!--all_yuyue_box 结束-->
+    	</div>
+    </div>
+                <!--底部-->
+    <div class="footer"></div>
+    <script>
+    	var con_left = document.getElementsByClassName('con_left')[0];
+    	var show = con_left.getElementsByClassName('show');
+    	var ul = con_left.getElementsByTagName('ul');
+    	
+    	for(var i=0;i<show.length;i++){
+    		show[i].index = i;
+    		show[i].onoff=true;
+    		show[i].onclick=function (){
+    			if(this.onoff){
+	    			ul[this.index].style.display='block';
+	    			this.onoff=false;
+    			}
+    			else{
+	    			ul[this.index].style.display='none';
+	    			this.onoff=true;
+    			}
+    		}
+    	}
+    	
+    	var shows=document.getElementsByClassName('shows');
+    	var time_show=document.getElementsByClassName('time_show');
+    	
+    	for(var i=0;i<shows.length;i++){
+    		shows[i].index = i;
+    		shows[i].onclick=function (){
+    			for(var i=0;i<time_show.length;i++){
+    				time_show[i].style.display='none';
+    			}
+    			time_show[this.index].style.display='block';
+    		}
+    		time_show[i].onmouseleave=function (){
+    			this.style.display='none';
+    		}
+    		time_show[i].onclick=function (){
+    			shows[i].innerHTML = this.innerHTML;
+    		}
+    	}
+    	
+    	
+    	
+    	
+    </script>
+</body>
+</html>

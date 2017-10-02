@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人中心-普通角色-我的收藏</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/个人中心-普通角色-我的收藏.css" />
+    <script>
+        window.onload=function (){
+            var oInp=document.getElementById('inp');
+            var oSel1=document.getElementById('sel1');
+            var oSel2=document.getElementById('sel2');
+            var aLi=oSel2.getElementsByTagName('li');
+            oSel1.onmouseover=function (){
+                    oSel2.style.display='block';
+                }
+                for(var i=0;i<aLi.length;i++){
+                    aLi[i].onclick=function (){
+                        oInp.value=this.innerHTML;
+                            oSel2.style.display='none';
+                    }  
+                } 
+        };
+    </script>
+</head>
+<body>
+   <!--头部-->
+    <div class="header">
+        <div class="HeadCter">
+            <a class='grid' href="###"><img src="img/坐标.png" alt="">广州</a>
+            <ul>
+                <li><a href="###">登录</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="###">注册</a></li>
+                <li><a href="###">消息</a></li>
+                <li><a href="###">我的样板间</a></li>
+                <li><a href="###">入驻我们</a>&nbsp;&nbsp;&nbsp;</li>
+                <li>&nbsp;&nbsp;&nbsp;<a href="###">400-633-952</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--logo和搜索框-->
+    <div class="LogoSearchBox">
+       <!--Logo搜索框区域居中的部分-->
+        <div class="LogoSearchCter">
+            <div class="logo fl">
+                <a href="###"><img src="img/logo.png" alt=""></a>
+            </div>
+            <div class="SearchNav fr">
+                <div class="SearchInput">
+                    <input type="text" placeholder='请输入您要搜索的内容' />
+                    <button></button>
+                </div>
+                <div class="Nav">
+                    <a href="index.html" class="active">首页</a>
+                    <a href="###">商城</a>
+                    <a href="案例展示-diy.html">装修DIY</a>
+                    <a href="装修服务.html">找装修</a>
+                    <a href="团购.html">逛团购</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--主体内容区域-->
+   <div class="content">
+       <div class="content-left">
+           <div class="nav-title">
+               <h1>我的样板间</h1>
+           </div>
+           <div class="my-order">
+               <dl>
+                   <dt><a href="###">我的订单</a></dt>
+                   <dt><a href="###">订单评价</a></dt>
+                   <dt><a href="###">退货</a>/<a href="">保修</a></dt>
+                   <dt><a href="###">我的团购</a></dt>
+               </dl>
+           </div>
+           <div class="my-coll">
+               <h5><a href="###" class="active">我的收藏</a></h5>
+           </div>
+           <div class="change-info">
+               <dl>
+                   <dt>修改信息</dt>
+                   <dd><a href="###">修改个人信息</a></dd>
+                   <dd><a href="###">修改工长信息</a></dd>
+               </dl>
+               <p><a href="###">管理收货地址</a></p>
+               <p><a href="###">修改密码</a></p>
+           </div>
+           <div class="system-notice">
+               <p><a href="###">系统通知</a></p>
+           </div>
+           <div class="manage">
+               <dl>
+                   <dt><a href="###">预约管理</a></dt>
+                   <dd><a href="###">我的预约</a></dd>
+                   <dd><a href="###">预约我的</a></dd>
+                   <dd><a href="###">预约设置</a></dd>
+               </dl>
+               <dl>
+                   <dt><a href="###">展示管理</a></dt>
+               </dl>
+               <dl>
+                   <dd><a href="###">我的荣誉</a></dd>
+                   <dd><a href="###">新增案例</a></dd>
+                   <dd><a href="###">新增作品</a></dd>
+                   <dd><a href="###">我的项目</a></dd>
+               </dl>
+           </div>
+       </div>
+       <div class="content-right">
+           <div class="nav">
+               <ul>
+                   <li><a href="###" class="active">收藏商品</a></li>
+                   <li><a href="###">收藏活动</a></li>
+                   <li><a href="###">收藏服务商</a></li>
+                   <li><a href="###">收藏店铺</a></li>
+               </ul>
+           </div>
+           <div class="coll-content">
+               <div class="nav2-search">
+                   <div class='nav2'><a href="###" class="active">全部商品</a><a href="###">建材</a><a href="###">家居</a></li>
+                    </div>
+                    <div class="search">
+                        <input id='inp' type="text" placeholder='请您输入内容'>
+                        <button></button>
+                        <span id='sel1'><img src="img/下拉箭头-1.png" alt="">
+                            <ul id="sel2">
+                                <li>喜羊羊</li>
+                                <li>美羊羊</li>
+                                <li>灰太狼</li>
+                                <li>待搜索内容一</li>
+                                <li>待搜索内容二</li>
+                                <li>待搜索内容三</li>
+                                <li>待搜索内容四</li>
+                                <li>气质美女</li>
+                                <li>制服美女</li>
+                                <li>朴素美女</li>
+                                <li>性感美女</li>
+                                <li>待搜索内容五</li>
+                                <li>待搜索内容六</li>
+                                <li>待搜索内容七</li>
+                                <li>待搜索内容八</li>
+                                <li>待搜索内容九</li>
+                                <li>待搜索内容10</li>
+                                <li>待搜索内容11</li>
+                                <li>待搜索内容12</li>
+                                <li>待搜索内容13</li>
+                                <li>待搜索内容14</li>
+                                <li>待搜索内容15</li>
+                                <li>待搜索内容16</li>
+                                <li>待搜索内容18</li>
+                                <li>待搜索内容19</li>
+                                <li>待搜索内容10</li>
+                                <li>待搜索内容20</li>
+                                <li>待搜索内容21</li>
+                                <li>待搜索内容22</li>
+                                <li>待搜索内容23</li>
+                                <li>待搜索内容24</li>
+                                <li>待搜索内容25</li>
+                                <li>待搜索内容26</li>
+                                <li>待搜索内容27</li>
+                                <li>待搜索内容28</li>
+                                <li>待搜索内容29</li>
+                                <li>待搜索内容30</li>
+                                <li>待搜索内容31</li>
+                                <li>待搜索内容32</li>
+                                <li>待搜索内容33</li>
+                                <li>待搜索内容34</li>
+                                <li>待搜索内容35</li>
+                                <li>待搜索内容36</li>
+                                <li>待搜索内容37</li>
+                                <li>待搜索内容38</li>
+                                <li>待搜索内容N</li>
+                            </ul>
+                        </span>
+                        
+                    </div>
+               </div>
+               <div class="coll-item">
+                   <div class="img-box"><img src="img/mm3.jpg" alt=""></div>
+                   <p class='name'>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
+                   <p class="price">&yen;9527.666</p>
+                   <div class="nav">
+                       <span><a href="###">查看店铺</a></span>
+                       <span><a href="###">查案商品</a></span>
+                   </div>
+                   <div class="shoping-state"><a href="###">加入购物车</a></div>
+               </div>
+              <div class="coll-item">
+                   <div class="img-box"><img src="img/mm1.png" alt=""></div>
+                   <p class='name'>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
+                   <p class="price">&yen;9527.666</p>
+                   <div class="nav">
+                       <span><a href="###">查看店铺</a></span>
+                       <span><a href="###">查案商品</a></span>
+                   </div>
+                   <div class="shoping-state"><b>已下架</b></div>
+               </div>
+               <div class="coll-item">
+                   <div class="img-box"><img src="img/mm1.jpg" alt=""></div>
+                   <p class='name'>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
+                   <p class="price">&yen;9527.666</p>
+                   <div class="nav">
+                       <span><a href="###">查看店铺</a></span>
+                       <span><a href="###">查案商品</a></span>
+                   </div>
+                   <div class="shoping-state"><a href="###">加入购物车</a></div>
+               </div>
+               <div class="coll-item">
+                   <div class="img-box"><img src="img/mm2.jpg" alt=""></div>
+                   <p class='name'>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
+                   <p class="price">&yen;9527.666</p>
+                   <div class="nav">
+                       <span><a href="###">查看店铺</a></span>
+                       <span><a href="###">查案商品</a></span>
+                   </div>
+                   <div class="shoping-state"><b>已下架</b></div>
+               </div>
+           </div>
+           
+           
+       </div>
+       
+       
+       
+   </div>
+    
+    
+    
+    
+    
+    <!--底部-->
+    <div class="footer"></div>
+</body>
+</html>

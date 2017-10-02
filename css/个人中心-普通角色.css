@@ -1,0 +1,101 @@
+body{}
+/*头部*/
+.header{width: 100%;height: 60px;line-height: 60px;background-color: #464646;color: #FF3E3E;}
+.header .HeadCter{width: 1200px;height: 60px;margin: auto;}
+.header a.grid{color:#FF3E3E; font-size:18px; }
+.header a:hover{text-decoration: underline;}
+.header a.grid img{width: 34px;height: 38px;margin-right:10px; }
+.header ul{float:right;}
+.header ul li{display: inline-block;height:20px;line-height:20px;padding:0 15px;border-right:1px solid #E4682B;  }
+.header ul li:last-child{margin:0;padding-right:0 ;border-right: none; }
+.header ul a{color: #F78D59;font-size:16px; }
+.header ul a:hover{color:yellow;text-decoration: underline;}
+
+
+
+/*logo和search框*/
+.LogoSearchBox{height: 177px;border-bottom: #E4682B 3px solid;background-color: #fff;}
+.LogoSearchCter{width: 1200px;height: 131px;margin:0 auto; padding-top:23px;  }
+.LogoSearchCter .logo{width: 270px;}
+/*logo和菜单*/
+.SearchNav{flex:2.7;position: relative;}
+/*搜索框*/
+.SearchInput{width: 482px;height: 44px;line-height: 44px;line-height: normal; border: #E4682B solid 1px;float:right; }
+.SearchInput input{width: 390px;height:30px;line-height:30px;margin:7px 0;  font-size: 16px;padding:0 10px;border-right:2px solid #E4682B;float: left; line-height: normal;}
+.SearchInput button{width:70px;height: 46px;cursor:pointer; background: url(../img/search.gif) no-repeat center ;}
+/*菜单*/
+.SearchNav .Nav{clear: both;height:50px;padding-top:50px; font-size: 24px;}
+.SearchNav .Nav a{margin-left:100px; }
+.SearchNav .active{color: #E4682B;}
+
+
+/*主体内容*/
+.content{width: 1200px;margin: auto;height: 1300px;background: #F1F1F1;}
+.content-left{width: 183px;height: 1010px;float: left;margin-top: 20px;}
+.content-left div{width: 156px;background-color:#F4E9E3; color:#484848;margin-bottom: 6px;padding-left: 25px; }
+.content-left div a:hover{color: red;text-decoration:underline;}
+.content-left dl{font-size: 14px;}
+.content-left dd{text-indent:1.5em;}
+.nav-title{height: 171px;line-height: 171px;font-size: 24px;}
+.content-left .my-order{height: 153px;}
+.content-left .my-order dl{line-height: 30px;padding-top:20px;}
+
+.content-left .my-coll{height: 112px;line-height: 112px;}
+.content-left .change-info{height: 215px;}
+.content-left .change-info dl{line-height:27px;margin-bottom: 30px;padding-top: 35px;}
+.content-left .system-notice{height: 65px;line-height: 65px;}
+.content-left .manage{height: 126px;}
+.content-left .manage dl{padding-top: 15px;}
+
+
+
+
+
+
+/*右边主体内容*/
+.content-right{width: 993px;height: 1300px;float: right;}
+.name-info,
+.job-info,
+.score,
+.booking{width: 993px;background:#D7D7D7;}
+.name-info,.job-info{width: 943px;height:169px;margin-top:30px;margin-bottom: 38px;padding:25px; position: relative;}
+
+.name-info{width: 943px;height:169px;margin-top:20px;margin-bottom: 28px;padding:57px 25px 25px;  position: relative;}
+.name-info a,.job-info{font-size: 14px;}
+.name-info .img-box,.job-info .img-box{width: 177px;height: 166px;background: #B4B4B4;float: left; }
+.name-info dl{width:130px;float: left;margin-left: 45px;margin-right: 105px;position: relative;top:80px;left:10px;font-size: 18px;}
+.name-info dl dt{margin-bottom: 30px;}
+.name-info ul{padding-left:85px;border-left: 4px solid #B5B5B5; width: 150px;height: 137px;float: left;position: relative;top:25px;font-size:18px;  }
+.name-info ul li{margin-top:27px;position: absolute;bottom: 0;left:30px; }
+.name-info ul a{padding-top: 25px;font-size: 18px; display: inline-block;height: 20px;}
+.name-info ul a:hover,.job-info ul a:hover{color: green;text-decoration:underline;}
+
+
+
+
+/*我的订单*/
+.my-order{width: 993px;height: 419px;background: #fff;}
+.my-order h1{margin-left: 10px;padding-top:20px;  font-size: 18px; margin-bottom: 20px;}
+.content-right .order-item{width: 880px;height: 137px;margin-bottom: 44px;margin-left: 50px;}
+.order-item dl{float: left;width:400px;}
+.order-item dt{width: 137px;height: 137px;background: #EDEDED;float: left;}
+.order-item dd{float: left; line-height: 137px;margin-left:40px;}
+.order-item div{width:450px;height: 42px;line-height: 42px;float: left;display: block;    margin-top: 46px;}
+.order-item div span{float: left;height: 42px;line-height: 42px;display: block;margin-right: 68px;}
+.order-item div p{float: left;height: 42px;margin-right: 68px}
+.order-item div p b{display: block;height: 20px;line-height: 20px;}
+.order-item div a:hover{color: red;text-decoration:underline;}
+
+
+
+
+
+/*推荐*/
+.recom{width: 993px;height: 239px;background: #fff;margin-top: 30px;}
+.recom h1{font-size: 18px;margin:0 0 0 15px; padding-top:10px;}
+.recom .recom-item{width: 156px;height: 156px;background: #D7D7D7;float: left;margin-left:25px; margin-top: 20px;}
+.recom .recom-item:nth-of-type(1){margin-left:40px;}
+
+
+
+.footer{width: 100%;height: 250px;background: #474747;}

@@ -1,0 +1,92 @@
+
+/*头部*/
+.header{width: 100%;height: 60px;line-height: 60px;background-color: #464646;color: #FF3E3E;}
+.header .HeadCter{width: 1200px;height: 60px;margin: auto;}
+.header a.grid{color:#FF3E3E; font-size:18px; }
+.header a:hover{text-decoration: underline;}
+.header a.grid img{width: 34px;height: 38px;margin-right:10px; }
+.header ul{float:right;}
+.header ul li{display: inline-block;height:20px;line-height:20px;padding:0 15px;border-right:1px solid #E4682B;  }
+.header ul li:last-child{margin:0;padding-right:0 ;border-right: none; }
+.header ul a{color: #F78D59;font-size:16px; }
+.header ul a:hover{color:yellow;text-decoration: underline;}
+
+
+
+/*logo和search框*/
+.LogoSearchBox{height: 177px;border-bottom: #E4682B 3px solid;background-color: #fff;}
+.LogoSearchCter{width: 1200px;height: 131px;margin:0 auto; padding-top:23px;  }
+.LogoSearchCter .logo{width: 270px;}
+/*logo和菜单*/
+.SearchNav{flex:2.7;position: relative;}
+/*搜索框*/
+.SearchInput{width: 482px;height: 44px;line-height: 44px;line-height: normal; border: #E4682B solid 1px;float:right; }
+.SearchInput input{width: 390px;height:30px;line-height:30px;margin:7px 0;  font-size: 16px;padding:0 10px;border-right:2px solid #E4682B;float: left; line-height: normal;}
+.SearchInput button{width:70px;height: 46px;cursor:pointer; background: url(../img/search.gif) no-repeat center ;}
+/*菜单*/
+.SearchNav .Nav{clear: both;height:50px;padding-top:50px; font-size: 24px;}
+.SearchNav .Nav a{margin-left:100px; }
+.SearchNav .active{color: #E4682B;}
+
+
+/*主体内容*/
+.content{width: 1200px;margin: auto;height: 1300px;}
+.content-left{width: 183px;height: 1010px;float: left;}
+.content-left div{width: 156px;background-color:#FAD8C2; color:#484848;margin-bottom: 6px;padding-left: 25px; }
+.content-left div a:hover{color: red;text-decoration:underline;}
+.content-left dl{font-size: 14px;}
+.content-left dd{text-indent:1.5em;}
+.nav-title{height: 171px;line-height: 171px;font-size: 24px;}
+.my-order{height: 153px;}
+.my-order dl{line-height: 30px;padding-top:20px;}
+
+.my-coll{height: 112px;line-height: 112px;}
+.change-info{height: 215px;}
+.change-info dl{line-height:27px;margin-bottom: 30px;padding-top: 35px;}
+.system-notice{height: 65px;line-height: 65px;}
+.manage{height: 262px;}
+.manage dl{padding-top: 15px;}
+
+
+
+
+
+
+/*右边主体内容*/
+.content-right{width: 993px;height: 1300px;float: right;}
+.name-info,
+.job-info,
+.score,
+.booking{width: 993px;background:#D7D7D7;}
+.name-info,.job-info{width: 943px;height:169px;margin-top:30px;margin-bottom: 38px;padding:25px; position: relative;}
+.name-info a,.job-info{font-size: 14px;}
+.name-info .img-box,.job-info .img-box{width: 177px;height: 166px;background: #B4B4B4;float: left; }
+.name-info dl,.job-info dl{width:100px;float: left;margin-left: 45px;margin-right: 105px;position: relative;top:80px;left:10px;}
+.name-info dl dt,.job-info dl dt{font-size: 24px;margin-bottom: 30px;}
+.name-info ul,.job-info ul{padding-left:20px;border-left: 1px solid #B5B5B5; width: 150px;height: 137px;float: left;position: relative;top:25px; }
+.name-info ul li,.job-info ul li{margin-top:27px;position: absolute;bottom: 0;left:30px; }
+.name-info ul a,.job-info ul a{padding-top: 25px;display: inline-block;height: 20px;}
+.name-info ul a:hover,.job-info ul a:hover{color: green;text-decoration:underline;}
+
+.job-info dl{top: 65px;}
+.job-info dd{background: #E7B298;color: #fff;font-size: 14px; text-align: center;width: 104px;height: 29px;line-height: 29px;border-radius: 10px;}
+.job-info ul a {padding-top: 12px;}
+
+
+.score{height: 73px;line-height: 73px;margin-top:28px;}
+.score li {float: left;width: 260px;margin-left: 65px;height: 25px;}
+.score li img{width: 16px;height: 14px;padding-left:2px;padding-bottom:5px; }
+.score li i{margin-right: 10px;font-size: 20px;}
+
+.booking{margin-top: 28px;height: 268px;padding:0 35px;width: 923px; font-size: 30px;}
+.booking .list-box{width: 183px;height: 183px;background-color:#fff;margin-right: 63px;float: left; }
+.booking .list-box:last-child{margin-right: 0;}
+.booking h1{margin: 10px 0;}
+.booking div{text-align: center;line-height: 183px;}
+
+
+
+
+
+
+.footer{width: 100%;height: 250px;background: #474747;}
